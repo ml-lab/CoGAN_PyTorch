@@ -2,6 +2,7 @@
 ### General
 This is a PyTorch implementation of the Coupled Generative Adversarial Netowork algorithm. For more details please refer to our [NIPS paper](https://papers.nips.cc/paper/6544-coupled-generative-adversarial-networks.pdf) or our [arXiv paper](https://arxiv.org/abs/1606.07536). Please cite the NIPS paper in your publications if you find the source code useful to your research.
 
+Ming-Yu Liu, Oncel Tuzel "Coupled Generative Adversarial Networks" NIPS 2016
 
 ### Installation
 In your python package, install [pytorch](https://github.com/pytorch/pytorch) and [torchvision](https://github.com/pytorch/vision). You also need yaml, Python Opencv and Google Logging to run the code.
