@@ -52,16 +52,16 @@ You will see the accuracy of the adapted classifier in the test set in the targe
 ### CoGAN Network Architecture
 ![](https://github.com/mingyuliutw/CoGAN_PyTorch/blob/master/images/overview_landscape_very_tight.jpg)
 
-### CoGAN Learn to generate corresponding smile and non-smile faces
+### CoGAN learn to generate corresponding smile and non-smile faces
 ![](https://github.com/mingyuliutw/CoGAN_PyTorch/blob/master/images/result_face_smiling_small.jpg)
 
-### CoGAN Learn to generate corresponding faces with blond-hair and without non-blond-hair
+### CoGAN learn to generate corresponding faces with blond-hair and without non-blond-hair
 ![](https://github.com/mingyuliutw/CoGAN_PyTorch/blob/master/images/result_face_blondhair_small.jpg)
 
-### CoGAN Learn to generate corresponding faces with eye-glasses and without eye-glasses
+### CoGAN learn to generate corresponding faces with eye-glasses and without eye-glasses
 ![](https://github.com/mingyuliutw/CoGAN_PyTorch/blob/master/images/result_face_eyeglasses_small.jpg)
 
-### CoGAN Learn to generate corresponding RGB and depth images
+### CoGAN learn to generate corresponding RGB and depth images
 ![](https://github.com/mingyuliutw/CoGAN_PyTorch/blob/master/images/result_nyu_small.jpg)
 
 ---
