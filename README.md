@@ -15,8 +15,8 @@ Train the CoGAN network to learn to generate digit images and the corresponding 
 cd src;
 python train_cogan_mnistedge.py --config ../exps/mnistedge_cogan.yaml;
 ```
-..After 5000 iterations, you will see the generation results in outputs/mnistedges_cogan/ and they should look like.
-..![](https://github.com/mingyuliutw/CoGAN_PyTorch/blob/master/outputs/mnistedge_cogan/mnistedge_cogan_gen_00005000.jpg)
+After 5000 iterations, you will see the generation results in outputs/mnistedges_cogan/ and they should look like.
+![](https://github.com/mingyuliutw/CoGAN_PyTorch/blob/master/outputs/mnistedge_cogan/mnistedge_cogan_gen_00005000.jpg)
 
 
 #### Domain adaptation using all training images
@@ -48,6 +48,26 @@ You will see the accuracy of the adapted classifier in the test set in the targe
 | ------- |:-------------:|:-------------:|
 | CoGAN   | 0.94XX        | 0.92XX        |
 
+
+### CoGAN Network Architecture
+
+![](https://github.com/mingyuliutw/CoGAN_PyTorch/blob/master/images/overview_landscape_very_tight.jpg)
+
+### CoGAN Learn to generate corresponding smile and non-smile faces
+
+![](https://github.com/mingyuliutw/CoGAN_PyTorch/blob/master/images/result_face_smiling_small.jpg)
+
+### CoGAN Learn to generate corresponding faces with blond-hair and without non-blond-hair
+
+![](https://github.com/mingyuliutw/CoGAN_PyTorch/blob/master/images/result_face_blondhair_small.jpg)
+
+### CoGAN Learn to generate corresponding faces with eye-glasses and without eye-glasses
+
+![](https://github.com/mingyuliutw/CoGAN_PyTorch/blob/master/images/result_face_eyeglasses_small.jpg)
+
+### CoGAN Learn to generate corresponding RGB and depth images
+
+![](https://github.com/mingyuliutw/CoGAN_PyTorch/blob/master/images/result_nyu_small.jpg)
 
 ---
 
